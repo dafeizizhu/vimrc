@@ -14,3 +14,4 @@ set ai
 set si
 set wrap
 set nobackup
+set backupcopy=yes
