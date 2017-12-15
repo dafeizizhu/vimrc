@@ -37,3 +37,7 @@ Plugin 'w0rp/ale'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+let g:ale_linters = {
+\ 'javascript': ['standard'],
+\}
