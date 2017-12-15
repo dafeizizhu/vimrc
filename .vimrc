@@ -32,5 +32,8 @@ Plugin 'VundleVim/Vundle.vim'
 " vim-vue
 Plugin 'posva/vim-vue'
 
+" ale
+Plugin 'w0rp/ale'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
