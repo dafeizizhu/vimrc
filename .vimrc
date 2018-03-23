@@ -41,3 +41,5 @@ filetype plugin indent on    " required
 let g:ale_linters = {
 \ 'javascript': ['standard'],
 \}
+
+autocmd FileType vue syntax sync fromstart
