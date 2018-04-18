@@ -35,6 +35,9 @@ Plugin 'posva/vim-vue'
 " ale
 Plugin 'w0rp/ale'
 
+" nerdtree
+Plugin 'scrooloose/nerdtree'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
