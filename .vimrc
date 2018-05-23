@@ -15,6 +15,7 @@ set si
 set wrap
 set nobackup
 set backupcopy=yes
+set foldmethod=indent
 
 " Vundle
 set nocompatible              " be iMproved, required
