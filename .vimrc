@@ -15,7 +15,6 @@ set si
 set wrap
 set nobackup
 set backupcopy=yes
-set foldmethod=indent
 
 " Vundle
 set nocompatible              " be iMproved, required
@@ -39,12 +38,17 @@ Plugin 'w0rp/ale'
 " nerdtree
 Plugin 'scrooloose/nerdtree'
 
+" ctrlp
+Plugin 'ctrlpvim/ctrlp.vim'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 let g:ale_linters = {
 \ 'javascript': ['standard'],
 \}
+
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|\.(git|hg|svn)$)'
 
 autocmd FileType vue syntax sync fromstart
 
